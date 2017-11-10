@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="hangchitiet.css" />
+<script>
+	$(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show('1000');
+        }
+        else
+        {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+        }
+    });
+    
+			if ($(".filter-button").removeClass("active")) {
+		$(this).removeClass("active");
+		}
+		$(this).addClass("active");
+
+});
+</script>
+
+</head>
+
+<body>
+ <div class="container">
+        <div class="row">
+        	<div class="header">
+				<p>BAJAJ</p>
+            </div>
+        <div class="btn1" align="center">
+            <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="bulbs">Bulbs</button>
+            <button class="btn btn-default filter-button" data-filter="dec">Decoration Lights</button>
+            <button class="btn btn-default filter-button" data-filter="smart">Smart lights</button>
+            <button class="btn btn-default filter-button" data-filter="spot">Spot Lights</button>
+        </div>
+        </div>
+        <br/>
+
+
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bulbs">
+                <a href="#"><img src="../anh/bajai/bulb/0.5W Bulb.jpg" class="img-responsive"></a>
+                </a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter dec">
+                <a href="#"><img src="../anh/bajai/dec/led-mini-flood-light-20w-cdl-bajaj-original-imaekg9hadruyhgg.jpeg" class="img-responsive"></a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter smart">
+                <a href="#"><img src="../anh/bajai/smart/quickquotes-images_main-bajaj_smartglow_curve_6_led_rc_portable_light_10418932_0-500x500.jpg" class="img-responsive"></a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spot">
+                <a href="#"><img src="../anh/bajai/spot light/2w-led-spot-light-round-white.jpg" class="img-responsive"></a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spot">
+                <a href="#"><img src="../anh/bajai/spot light/bajaj-12w-iled-squadra-panel.jpg" class="img-responsive"></a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter smart">
+                <a href="#"><img src="../anh/bajai/smart/SDL706092670_1381121434_image1-ab855.jpg/" class="img-responsive"></a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bulbs">
+                <a href="#"><img src="../anh/bajai/bulb/9W LED & 12W LED Bulb.jpg" class="img-responsive"></a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bulbs">
+               <a href="#"> <img src="../anh/bajai/bulb/B22 5-Watt Led Bulb.jpg" class="img-responsive"></a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bulbs">
+                <a href="#"><img src="../anh/bajai/bulb/B22 15-Watt Led Bulb.jpg" class="img-responsive">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
