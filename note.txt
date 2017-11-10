@@ -1,0 +1,31 @@
+﻿homepage
+
+logo
+head pic
+
+mỗi trang web cho mỗi sản phẩm
+trang web cho mỗi loại bóng led
+
+liên kết với các hãng sản xuất
+
+tạo trang web thư viện cho toàn bộ ảnh
+
+có phần feedback - gồm tạo, sửa, xóa
+
+navi: site map, gallery, about us, FAQ, contact us
+
+địa chỉ có dùng google map
+
+có vùng quảng cáo
+
+
+
+1. trang khách hàng
+	Homepage
+	khung cho galary và các loại led
+	Khung cho giới thiệu đèn led cụ thể
+2. trang admin
+	Thêm sửa xóa sản phẩm
+	Xem feedback khách hàng
+3. Nội dung trang
+	Tìm ảnh và thông tin dèn led

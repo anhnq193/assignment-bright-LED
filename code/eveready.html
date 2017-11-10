@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="hangchitiet.css" />
+<script>
+	$(document).ready(function(){
+
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            //$('.filter').removeClass('hidden');
+            $('.filter').show('1000');
+        }
+        else
+        {
+//            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+//            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+        }
+    });
+    
+			if ($(".filter-button").removeClass("active")) {
+		$(this).removeClass("active");
+		}
+		$(this).addClass("active");
+
+});
+</script>
+
+</head>
+
+<body>
+ <div class="container">
+        <div class="row">
+        	<div class="header">
+				<p>EVEREADY</p>
+            </div>
+        <div class="btn1" align="center">
+            <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="bulbs">Bulbs</button>
+            <button class="btn btn-default filter-button" data-filter="dec">Decoration Lights</button>
+            <button class="btn btn-default filter-button" data-filter="smart">Smart lights</button>
+            <button class="btn btn-default filter-button" data-filter="spot">Spot Lights</button>
+        </div>
+        </div>
+        <br/>
+
+
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bulbs">
+                <a href="#"><img src="../anh/eveready/bulb/led-2-1.jpg" class="img-responsive"></a>
+                </a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter dec">
+                <a href="#"><img src="../anh/eveready/dec/81Xo01MUtDL._SL1500_.jpg" class="img-responsive"></a>
+            </div>
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter dec">
+                <a href="#"><img src="../anh/eveready/dec/opulus-dimmable-0-6w-led-decor-bulbs---set-of-10-opulus-dimmable-0-6w-led-decor-bulbs---set-of-10-zasdgi.jpg" class="img-responsive"></a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter smart">
+                <a href="#"><img src="../anh/eveready/smart/1EREL0017_m_2_2x-1f457.jpg" class="img-responsive"></a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spot">
+                <a href="#"><img src="../anh/eveready/spot/1.-EVEREADY-FLOATING-LANTERN-GPLN45.jpg" class="img-responsive"></a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spot">
+                <a href="#"><img src="../anh/eveready/spot/5f23ce24-c943-4f90-a959-5eb835768847_1.eae7c7542340b2e5a1218026b8d12191.jpeg" class="img-responsive"></a>
+            </div>
+             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spot">
+                <a href="#"><img src="../anh/eveready/spot/41HQEUt+dkL._SL500_AC_SS350_.jpg" class="img-responsive"></a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter smart">
+                <a href="#"><img style="width:100%" src="../anh/eveready/smart/download.jfif" class="img-responsive"></a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bulbs">
+                <a href="#"><img style="width:100%" src="../anh/eveready/bulb/images.jpg" class="img-responsive"></a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bulbs">
+               <a href="#"> <img src="../anh/eveready/bulb/71p2eF5NVbL._SL1500_.jpg" class="img-responsive"></a>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter bulbs">
+                <a href="#"><img src="../anh/eveready/images.jpg" class="img-responsive">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

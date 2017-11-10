@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family:Lato;	
+}
+.header {
+	border: 1px black solid;
+    width: 500px;
+    margin: auto;
+    text-align: center;	
+	
+}
+.header p {
+	font-weight: bold;
+    font-size: 30px;	
+	padding-top: 6px;
+}
+.daude {
+	font-weight: bold;
+    font-size: 20px;
+    padding-left: 90px;
+    border-bottom: 1px solid #d2cfcf;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+		
+}
+.menu {
+	margin-top:100px;	
+}
+.daude p {
+	color:black;	
+}
+.more {
+	float:right;
+	margin-top:10px;
+	font-size:15px;
+}
+.gal {
+	
+	
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	  
+	
+	}	
+	.gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {
+		
+		.gal {
+	
+	
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	  
+	
+	}
+		
+	}

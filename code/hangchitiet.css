@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.header
+{
+    border: 1px black solid;
+    width: 500px;
+    margin: auto;
+    text-align: center;	
+	font-weight: bold;
+    font-size: 30px;	
+	padding-top: 6px;
+	margin-bottom:70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #F33;
+    border-radius: 5px;
+    text-align: center;
+    color: #F33;
+    margin-bottom: 30px;
+	margin-left:30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #F33;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #F33;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+.btn1 {
+	border-top:1px solid #CCC;
+	margin:auto;
+	text-align:center;
+	width: 100%;
+	padding-top:30px;
+	
+	}
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
