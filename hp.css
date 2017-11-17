@@ -151,8 +151,8 @@ font-size: 55px;
 
 }
 
-.social a {
-    color: #fffdf0;
+.social a img{
+    cursor: pointer;
     display: block;
     height: 4em;
     line-height: 6em;
@@ -215,7 +215,7 @@ font-size: 55px;
   border-radius: 23px 23px 23px 23px;
   height: 40px;
   width : 40px;
-  margin-top: 30px
+  margin-top: 80px
 }
 /* Next button  */
 .media-carousel .carousel-control.right 
@@ -227,7 +227,7 @@ font-size: 55px;
   border-radius: 23px 23px 23px 23px;
   height: 40px;
   width : 40px;
-  margin-top: 30px
+  margin-top: 80px
 }
 /* Changes the position of the indicators */
 .media-carousel .carousel-indicators 
@@ -249,7 +249,7 @@ font-size: 55px;
 .media-carousel img
 {
   width: 250px;
-  height: 100px;
+  height: 200px;
 }
 /* End carousel */
 /*pr*/
