@@ -8,34 +8,45 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="../hangchitiet.css" />
 <style>
+body {
+	background-color: #FAFAFA;
+}
 	.container-fluid {
-		  background: #FCFCFC;
+		  background: #FFF;
 		  padding: 25px;
 		  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-		  border-radius:3px;
-		  margin-left:500px;
-		  margin-right:500px;
-		  margin-top:50px;
-		  position:absolute;
+		  margin:auto;
+		  margin-top:150px;
+		  width:50%;
+		  border-radius:10px;
+		  position:relative;
 	}
-	
-	@a {
-		padding:5px;
+	@register-email @register-password {
+		width:90%;
 	}
+	.login {
+		background:#5faed6;
+		color:white;
+		border-radius:5px;
+		text-align:center;
+		vertical-align:middle;
+	}
+
 </style>
 </head>
 
 <body>
 <div class="container-fluid">
-	<div id="a">
+  <div id="a">
 		<p>Email</p>
-    	<input type="email" id="register-email" autocomplete="off" spellcheck="false"><br />
+		<input type="email" id="register-email" autocomplete="off" spellcheck="false" />
+	  <br />
     	</div>
-	<div id="a">
-		<p>Password </label></p>
-    	<input type="password" id="register-password" autocomplete="off" spellcheck="false"><br />
+  <div id="a">
+		<p>Password</p>
+    	<input type="password" id="register-password" autocomplete="off" spellcheck="false" ><br />
    	  <p class="small">Forgot Your Password?</p>
-      <button class="btn-primary">Login</button>
+      <div class="login">Login</div>
       <p class="small"><strong>Register</strong></p>
   </div>
 </div>
