@@ -61,11 +61,12 @@ body {
 	vertical-align:middle;
 	border-radius:5%;
 }
-.soluong:hover , .addtocart:hover , .like:hover{
+.soluong:hover , .addtocart:hover , .like:hover {
 	background-color:#F36;
 	color:#FFF;
 	border-color: #ffffff;
 }
+
 .review {
 	margin-top:40px;	
 }
