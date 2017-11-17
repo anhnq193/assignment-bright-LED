@@ -1,5 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
+body{
+	font-family:Lato;
+}
 .container {
     margin-top: 20px;
 }
@@ -110,6 +113,7 @@
 .navbar, .dropdown-menu{
 background:rgba(255,255,255,0.25);
 border: none;
+background-color:#FFC
 }
 .navbar a,.navbar-toggle{
  color: #b1aca1;
