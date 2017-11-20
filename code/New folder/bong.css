@@ -10,6 +10,9 @@ body {
     margin: auto;
 	font-size:30px;	
 }
+.sp {
+	margin-top:70px;	
+}
 .anh , .muahang {
 	display:inline-block;	
 }
@@ -123,6 +126,7 @@ a:focus, a:hover {
 .container {
 	margin-top:30px;	
 }
+
 .carousel {
     margin-bottom: 0;
     padding: 0 40px 30px 40px;
@@ -153,4 +157,65 @@ a:focus, a:hover {
 }
 .carousel-indicators .active {
 background: #428bca;
+}
+.navbar, .dropdown-menu{
+	background:rgba(255,255,255,0.25);
+	border: none;
+	background-color:#FFC
+	}
+.navbar a,.navbar-toggle{
+ 	color: #b1aca1;
+}
+
+
+.footer ul{
+    list-style:none;
+    margin:0 auto;
+    display:inline-block;
+    padding-top:50px;
+}
+
+.footer ul li{
+    float:left;
+}
+
+.footer ul li a{
+	color:#333;
+    padding:20px;
+}
+
+.footer ul li a:hover{
+	color:#7dabdb;
+	text-decoration:none;
+}
+
+.footer-top{
+	padding-bottom:50px;
+}
+
+.footer-top .fa{
+    font-size:18px;
+    color: #FFF;
+    padding-right:10px;
+}
+
+.footer-top a{
+    color:#FFF;
+    text-decoration:none;
+}
+
+.footer-top .col-lg-2:hover .fa , .footer-top .col-lg-2:hover a{
+    color:#7dabdb;
+}
+
+.copyright{
+    background-color:#f0f0f0;
+}
+
+.copyright p{
+	font-size:12px;
+	padding:15px 0 10px 0;
+}
+.footer {
+	margin-top:50px;	
 }

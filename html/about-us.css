@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+		* {
+		  margin: 0;
+		  padding: 0;
+		  box-sizing: border-box;
+		  -webkit-box-sizing: border-box;
+		  -moz-box-sizing: border-box;
+		  -webkit-font-smoothing: antialiased;
+		  -moz-font-smoothing: antialiased;
+		  -o-font-smoothing: antialiased;
+		  font-smoothing: antialiased;
+		  text-rendering: optimizeLegibility;
+		}
+
+		body {
+		  font-family: "Roboto", Helvetica, Arial, sans-serif;
+		  font-weight: 100;
+		  font-size: 12px;
+		  line-height: 30px;
+		  color: #777;
+
+		}
+
+		#about-us {
+		  background: #F9F9F9;
+		  padding: 25px;
+		  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+		}
+		
+		#about-us h2 {
+		  display: block;
+		  font-size: 40px;
+		  font-weight: 300;
+		  margin-bottom: 10px;
+		  width: 100%;
+		  text-align: center
+		}
+		
+		#about-us h3 {
+		  display: block;
+		  font-size: 30px;
+		  font-weight: 300;
+		  margin-bottom: 10px;
+		  width: 100%;
+		  text-align: center
+		}
+
+		#about-us h4 {
+		  margin: 5px 0 15px;
+		  display: block;
+		  font-size: 13px;
+		  font-weight: 400;
+		  width: 100%;
+		  text-align: center
+		}
+		#about-us p {
+		  display: block;
+		  font-size: 13px;
+		  font-weight: 100;
+		  width: 100%;
+		  text-align: center
+		}
