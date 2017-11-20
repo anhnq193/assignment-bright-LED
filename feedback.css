@@ -1,9 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 /* Carousel */
-
+.navbar, .dropdown-menu{
+background:rgba(255,255,255,0.25);
+border: none;
+background-color:#FFC
+}
+.navbar a,.navbar-toggle{
+ color: #b1aca1;
+}
 #quote-carousel {
-    padding: 0 10px 30px 10px;
+    padding: 50px 10px 30px 10px;
     margin-top: 30px;
     /* Control buttons  */
     /* Previous button  */
@@ -62,4 +69,48 @@
     font-family: 'Fontawesome';
     float: left;
     margin-right: 10px;
+}
+.footer .container{
+	border-top:1px solid #999;
+	margin-top:150px;
+}
+.footer ul{
+    list-style:none;
+    margin:0 auto;
+    display:inline-block;
+    padding-top:50px;
+	padding-bottom:10px
+}
+
+.footer ul li{
+    float:left;
+}
+
+.footer ul li a{
+	color:#333;
+    padding:20px;
+}
+
+.footer ul li a:hover{
+	color:#7dabdb;
+	text-decoration:none;
+}
+
+.footer-top{
+	padding-bottom:50px;
+}
+
+.footer-top .fa{
+    font-size:18px;
+    color: #FFF;
+    padding-right:10px;
+}
+
+.footer-top a{
+    color:#FFF;
+    text-decoration:none;
+}
+
+.footer-top .col-lg-2:hover .fa , .footer-top .col-lg-2:hover a{
+    color:#7dabdb;
 }

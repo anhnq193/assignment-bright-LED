@@ -3,7 +3,7 @@
 body{
 	font-family:Lato;
 }
-.navbar, .dropdown-menu{
+.navbar{
 background:rgba(255,255,255,0.25);
 border: none;
 background-color:#FFC
