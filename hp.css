@@ -16,10 +16,6 @@ background-color:#FFC
 }
 
 /* Carousel Styles */
-.carousel-indicators .active {
-    background-color: #2980b9;
-}
-
 .carousel-inner img {
 	margin-top: 30px;
     width: 100%;
@@ -28,11 +24,6 @@ background-color:#FFC
 	margin-left:auto;
 	margin-right:auto
 }
-
-.carousel-control {
-    width: 0;
-}
-
 .carousel-control.left,
 .carousel-control.right {
 	opacity: 1;
@@ -40,10 +31,6 @@ background-color:#FFC
 	background-image: none;
 	background-repeat: no-repeat;
 	text-shadow: none;
-}
-
-.carousel-control.left span {
-	/*padding: 15px;*/
 }
 
 
@@ -68,18 +55,6 @@ background-color:#FFC
 	right: 0;
 	margin-right:5px;
 }
-
-.carousel-control.left span,
-.carousel-control.right span {
-	color:#FFC;
-}
-
-.carousel-control.left span:hover,
-.carousel-control.right span:hover {
-	opacity: .7;
-	filter: alpha(opacity=70);
-}
-
 /* Carousel Header Styles */
 .header-text {
     position: absolute;

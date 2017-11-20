@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #FAFAFA;
+}
+	.container-fluid {
+		  background: #FFF;
+		  padding: 25px;
+		  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+		  margin:auto;
+		  margin-top:150px;
+		  width:50%;
+		  border-radius:10px;
+		  position:relative;
+	}
+	@register-email @register-password {
+		width:90%;
+	}
+	.login {
+		background:#5faed6;
+		color:white;
+		border-radius:5px;
+		text-align:center;
+		vertical-align:middle;
+		width:50px;
+	}
+	.email , .pass {
+		display:none;
+		color:red;	
+	}
+	.navbar, .dropdown-menu{
+		background:rgba(255,255,255,0.25);
+		border: none;
+		background-color:#FFC
+	}
+	.navbar a,.navbar-toggle{
+		color: #b1aca1;
+	}
+	.footer ul{
+    list-style:none;
+    margin:0 auto;
+    display:inline-block;
+    padding-top:50px;
+}
+	
+	.footer ul li{
+		float:left;
+	}
+	
+	.footer ul li a{
+		color:#b1aca1;
+		padding:20px;
+	}
+	
+	.footer ul li a:hover{
+		color:#7dabdb;
+		text-decoration:none;
+	}
+	
+	.footer-top{
+		padding-bottom:50px;
+	}
+	
+	.footer-top .fa{
+		font-size:18px;
+		color: #FFF;
+		padding-right:10px;
+	}
+	
+	.footer-top a{
+		color:#FFF;
+		text-decoration:none;
+	}
+	
+	.footer-top .col-lg-2:hover .fa , .footer-top .col-lg-2:hover a{
+		color:#7dabdb;
+	}
+	
+	.copyright{
+		background-color:#f0f0f0;
+	}
+	
+	.copyright p{
+		font-size:12px;
+		padding:15px 0 10px 0;
+	}
+	.footer {
+		margin-top:120px;	
+	}
+		
