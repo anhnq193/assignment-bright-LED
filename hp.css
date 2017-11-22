@@ -246,3 +246,6 @@ background-color:#FFC
 .footer-top .col-lg-2:hover .fa , .footer-top .col-lg-2:hover a{
     color:#7dabdb;
 }
+.col-md-4 img,.col-md-3 img{
+	height:100%;	
+}
