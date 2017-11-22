@@ -2,7 +2,8 @@
 /* CSS Document */
 
 body{
-	font-family:Lato;
+	font-family:Myriad Pro;
+	background-color: #fafafa;
 }
 .navbar{
 background:rgba(255,255,255,0.25);
@@ -12,8 +13,17 @@ background-color:#FFC
 .navbar a,.navbar-toggle{
  color: #b1aca1;
 }
-body {
-	background-color: #fafafa;
+
+.navbar-default {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	padding:0px;
+	background:#FFF;
+	vertical-align:bottom;
+}
+
+.brand {
+	border-radius:10px;
+	float:left;
 }
 
 .1 {
@@ -44,7 +54,6 @@ body {
 
 .2 {
 	display:inline-block;
-	float:right;
 }
 
 .thanhtien {
