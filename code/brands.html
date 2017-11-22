@@ -8,7 +8,20 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="brands.css" />
-
+<script>
+	$( document ).ready(function() {
+    $("[rel='tooltip']").tooltip();    
+ 
+    $('.thumbnail').hover(
+        function(){
+            $(this).find('.caption').fadeIn(250)
+        },
+        function(){
+            $(this).find('.caption').fadeOut(205)
+        }
+    ); 
+});
+</script>
 </head>
 <body>
 <div class="navbar-wrapper">
@@ -18,131 +31,268 @@
                 	<div id="navbar" class="navbar-collapse">
                     	<ul class="nav navbar-nav">
                     		<li class="brand" style="font-size:30px"><b>STARRIES</b></li>
-                        	<li class="home"><a href="hp.html" class="">HOME</a></li>
-                        	<li class="aboutus"><a href="html/about-us.html" class=" ">ABOUT US</a></li>
-                        	<li><a href="cart.html">CART</a></li>   
+                        	<li class="home"><a href="../hp.html" class="">HOME</a></li>
+                        	<li class="aboutus"><a href="../html/about-us.html" class=" ">ABOUT US</a></li>
+                        	<li><a href="../cart.html">CART</a></li>   
                         	<li><a href="code/brands.html">BRAND</a></li>
                     	</ul>
                     	<ul class="nav navbar-nav pull-right">
-                        	<li class="signin"><a href="code/Log In/log in.html" class=" ">Sign in</a></li>
-							<li class="resgister"><a href="register.html" class=" ">Register</a></li>                    
+                        	<li class="signin"><a href="Log In/log in.html" class=" ">Sign in</a></li>
+							<li class="resgister"><a href="../register.html" class=" ">Register</a></li>                    
                         </ul>                     
                 	</div>
             	</div>
         	</nav>
     	</div>
 	</div>
-	<div class="header">
+<div class="header">
     	<p>BRANDS</p>
-    </div>
-	<div class="menu">
+</div>
+<div class="menu">
     	<div class="daude">
     		<a href="phillips.html"><p>PHILLIPS</p></a>
         </div>
-       <div class="container">
+	
+    <div class="container1 text-center">
         <div class="row">
-       
-        <br/>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <a href="New folder/wipro/smart/s1.html"><img src="../anh/phillips/bulb/3164WEYmvrL.jpg" class="img-responsive"></a>
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>BULB 3164</h4>
+                        <p>PHILLIPS</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$8,00</a>
+                        <a href="New folder/phillips/bulb/b1.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/phillips/bulb/3164WEYmvrL.jpg" class="img-responsive">
+                </div>
             </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <a href="New folder/wipro/dec/d2.html"><img src="../anh/phillips/dec/691086048-RTP-global-001.jfif" class="img-responsive"></a>
+           
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>RTP GLOBAL 001</h4>
+                        <p>PHILLIPS</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$8,00</a>
+                        <a href="New folder/phillips/dec/d2.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/phillips/dec/691086048-RTP-global-001.jfif" class="img-responsive">
+                </div>
             </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <a href="New folder/wipro/spot/sp2.html"><img src="../anh/phillips/spot/philips-pillar-myliving-led-ceiling-spotlight-5633.jpg" class="img-responsive"></a>
+    
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>CEILING SPOT LIGHT</h4>
+                        <p>PHILLIPS</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$20,00</a>
+                        <a href="New folder/phillips/spot/sp2.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/phillips/spot/philips-pillar-myliving-led-ceiling-spotlight-5633.jpg" class="img-responsive">
+                </div>
             </div>
-
+    
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>SM 1039</h4>
+                        <p>PHILLIPS</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$12,00</a>
+                        <a href="New folder/phillips/smart/s1.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/phillips/smart/10395305.jpg" class="img-responsive">
+                </div>
+            </div>        
         </div>
         <div class="more">
-        	<a href="phillips.html"><p>Show more...</p></a>
-        </div>
-    </div>
-    
-    <div class="menu">
+                <a href="phillips.html"><p>Show more...</p></a>
+        </div>		
+    </div> 
+</div>		       
+        
+<div class="menu">
     	<div class="daude">
     		<a href="wipro.html"><p>WIPRO</p></a>
         </div>
-       <div class="container">
+	
+    <div class="container1">
         <div class="row">
-     
-        <br/>
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <a href="New folder/wipro/bulb/b2.html"><img src="../anh/wipro/bulb/0022174_wipro-tejas-7w-led-bulb_600.jpeg" class="img-responsive"></a>
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>BULB 3164</h4>
+                        <p>WIPRO</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$10,00</a>
+                        <a href="New folder/wipro/bulb/b2.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/wipro/bulb/0022174_wipro-tejas-7w-led-bulb_600.jpeg" class="img-responsive">
+                </div>
             </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <a href="New folder/wipro/dec/d1.html"><img src="../anh/wipro/dec/51yWIzVchPL._SX342_.jpg" class="img-responsive"></a>
+           
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>DSX342</h4>
+                        <p>WIPRO</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$18,00</a>
+                        <a href="New folder/wipro/dec/d1.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/wipro/dec/51yWIzVchPL._SX342_.jpg" class="img-responsive">
+                </div>
             </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <a href="New folder/wipro/spot/sp2.html"><img src="../anh/wipro/spot/Elektra-3W-LED-Spot-Light-SDL390460713-1-3dc05.jpg" class="img-responsive"></a>
+    
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>SL1500</h4>
+                        <p>WIPRO</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$17,00</a>
+                        <a href="New folder/wipro/smart/s2.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/wipro/smart/81k1tGnxZeL._SL1500_.jpg" class="img-responsive">
+                </div>
             </div>
-
+    
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>ELEKTRA 3W </h4>
+                        <p>WIPRO</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$13,00</a>
+                        <a href="New folder/wipro/spot/sp2.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/wipro/spot/Elektra-3W-LED-Spot-Light-SDL390460713-1-3dc05.jpg" class="img-responsive">
+                </div>
+            </div>        
         </div>
         <div class="more">
-        	<a href="wipro.html"><p>Show more...</p></a>
+                <a href="wipro.html"><p>Show more...</p></a>
+        </div>		
+    </div> 
+</div>    
+    
+<div class="menu">
+    	<div class="daude">
+    		<a href="bajaj.html"><p>BAJAJ</p></a>
         </div>
-    </div>
-        
-        
-        <div class="menu">
-            <div class="daude">
-                <a href="bajaj.html"><p>BAJAJ</p></a>
+	
+    <div class="container1">
+        <div class="row">
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>0.5W LED YELLOW </h4>
+                        <p>BAJAJ</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$10,00</a>
+                        <a href="New folder/bajaj/bulb/0.5Wledyellow.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/bajai/bulb/0.5W-3.jpg" class="img-responsive">
+                </div>
             </div>
-           <div class="container">
-            <div class="row">
            
-           
-            <br/>
-    
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                    <a href="New folder/bajaj/bulb/0.5Wledyellow.html"><img src="../anh/bajai/bulb/0.5W-3.jpg" class="img-responsive"></a>
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>LED MINI FLOOD LIGHT 20W</h4>
+                        <p>BAJAJ</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$20,50</a>
+                        <a href="New folder/bajaj/dec/dec1.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/bajai/dec/led-mini-flood-light-20w-cdl-bajaj-original-imaekg9hadruyhgg.jpeg" class="img-responsive">
                 </div>
-    
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                    <a href="New folder/bajaj/dec/dec1.html"><img src="../anh/bajai/dec/led-mini-flood-light-20w-cdl-bajaj-original-imaekg9hadruyhgg.jpeg" class="img-responsive"></a>
-                </div>
-    
-                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                    <a href="New folder/bajaj/smart/s1.html"><img src="../anh/bajai/smart/bajaj-emergency-lamp-430-lr-30led-medium_e657145c81b2f61e194d29b0a5dabc21.jpg" class="img-responsive"></a>
-                </div>
-    
-              
             </div>
-            <div class="more">
-        		<a href="bajaj.html"><p>Show more...</p></a>
-       		</div>
+    
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>EMERGENCY LAMP 430</h4>
+                        <p>BAJAJ</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$25,50</a>
+                        <a href="New folder/bajaj/smart/s1.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/bajai/smart/bajaj-emergency-lamp-430-lr-30led-medium_e657145c81b2f61e194d29b0a5dabc21.jpg" class="img-responsive">
+                </div>
+            </div>
+    
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>MOUNTED LED SPOT LIGHT</h4>
+                        <p>BAJAJ</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$23,50</a>
+                        <a href="New folder/bajaj/spot/sp4.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/bajai/spot light/bajaj-111606-alpha-track-mounted-led-spot-light.jpg" class="img-responsive">
+                </div>
+            </div>        
         </div>
-    <div class="menu">
+        <div class="more">
+                <a href="bajaj.html"><p>Show more...</p></a>
+        </div>		
+    </div> 
+</div>   
+        
+<div class="menu">
     	<div class="daude">
     		<a href="eveready.html"><p>EVEREADY</p></a>
         </div>
-       <div class="container">
+	
+    <div class="container1">
         <div class="row">
-     
-        <br/>
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <a href="New folder/eveready/bulb/b1.html"><img src="../anh/eveready/bulb/31xzHq5DdkL._SL500_AC_SS350_.jpg" class="img-responsive"></a>
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>SL500 AC</h4>
+                        <p>EVEREADY</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$10,50</a>
+                        <a href="New folder/eveready/bulb/b1.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/eveready/bulb/31xzHq5DdkL._SL500_AC_SS350_.jpg" class="img-responsive">
+                </div>
             </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <a href="New folder/eveready/dec/d1.html"><img src="../anh/eveready/dec/81Xo01MUtDL._SL1500_.jpg" class="img-responsive"></a>
+           
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>SL1500 DL</h4>
+                        <p>EVEREADY</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$9,00</a>
+                        <a href="New folder/eveready/dec/d1.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/eveready/dec/81Xo01MUtDL._SL1500_.jpg" class="img-responsive">
+                </div>
             </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6">
-                <a href="New folder/eveready/smart/s3.html"><img src="../anh/eveready/smart/Eveready HL-52 LED...jpg" class="img-responsive"></a>
+    
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>HL 52 LED</h4>
+                        <p>EVEREADY</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$13,00</a>
+                        <a href="New folder/eveready/smart/s3.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/eveready/smart/Eveready HL-52 LED...jpg" class="img-responsive">
+                </div>
             </div>
-
-          
+    
+            <div class="col-md-3">            
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h4>SL500 AC SL</h4>
+                        <p>EVEREADY</p>
+                        <p><a href="" class="label label-danger" rel="tooltip" title="Price">$20,00</a>
+                        <a href="New folder/eveready/spot/sp3.html" class="label label-default" rel="tooltip" title="Show details">Details</a></p>
+                    </div>
+                    <img src="../anh/eveready/spot/41HQEUt+dkL._SL500_AC_SS350_.jpg" class="img-responsive">
+                </div>
+            </div>        
         </div>
         <div class="more">
-        	<a href="eveready.html"><p>Show more...</p></a>
-        </div>
-    </div>
+                <a href="eveready.html"><p>Show more...</p></a>
+        </div>		
+    </div> 
+</div>       
+      
+    
     <div class="footer">                                        
         <div class="container" style="border-top:1px solid grey;">
             <div class="row text-center">   
@@ -168,6 +318,8 @@
                 </div>
             </div>
         </div>
-   
+
+
+
 </body>
 </html>
