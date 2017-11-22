@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="feedback.css" /> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -15,111 +16,88 @@
     	<div class="container-fluid">
         	<nav class="navbar navbar-fixed-top">
             	<div class="container1">
-                	<div class="navbar-header">
-                    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    	<span class="sr-only"></span>
-                    	<span class="icon-bar"></span>
-                    	<span class="icon-bar"></span>
-                    	<span class="icon-bar"></span>
-                    	</button>
-                    	<a class="navbar-brand" href="#">STARRIES</a>
+                	<div id="navbar" class="navbar-collapse">
+                    	<ul class="nav navbar-nav">
+                    		<li class="brand" style="font-size:30px"><b>STARRIES</b></li>
+                        	<li class="home"><a href="hp.html" class="">HOME</a></li>
+                        	<li class="aboutus"><a href="html/about-us.html" class=" ">ABOUT US</a></li>
+                        	<li><a href="cart.html">CART</a></li>   
+                        	<li><a href="code/brands.html">BRAND</a></li>
+                    	</ul>
+                    	<ul class="nav navbar-nav pull-right">
+                        	<li class="signin"><a href="code/Log In/log in.html" class=" ">Sign in</a></li>
+							<li class="resgister"><a href="register.html" class=" ">Register</a></li>                    
+                        </ul>                     
                 	</div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="home"><a href="#" class="">HOME</a></li>
-                        <li class="aboutus"><a href="#" class=" ">ABOUT US</a></li>
-                        <li><a href="#">CART</a></li>   
-                        <li><a href="#">BRAND</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav pull-right">
-                        <li class="signin"><a href="#" class=" ">Sign in</a></li>
-						<li class="resgister"><a href="#" class=" ">Register</a></li>                    </ul>                     
-                </div>
-            </div>
-        </nav>
-    </div>
+            	</div>
+        	</nav>
+    	</div>
 	</div>
-	<div class="row">
-    	<div class="col-md-12" data-wow-delay="0.2s">
-           <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-           <!-- Bottom Carousel Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="1.JPG" alt="">
-                    </li>
-                    <li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="1.jpg" alt="">
-                    </li>
-                    <li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="1" alt="">
-                    </li>
-                </ol>
-				<!-- Carousel Slides / Quotes -->
-                <div class="carousel-inner text-center">
-					<!-- Quote 1 -->
-                	<div class="item active">
-                         <blockquote>
-                         <div class="row">
-                         	<div class="col-sm-8 col-sm-offset-2">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
-                                <small>Someone famous</small>
-                            </div>
-                         </div>
-                         </blockquote>
-                     </div>
-                     <!-- Quote 2 -->
-                      <div class="item">
-                          <blockquote>
-                          <div class="row">
-                               <div class="col-sm-8 col-sm-offset-2">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
-                                    <small>Someone famous</small>
-                               </div>
-                           </div>
-                       	   </blockquote>
-                      </div>
-                      <!-- Quote 3 -->
-                      <div class="item">
-                          <blockquote>
-                          <div class="row">
-                               <div class="col-sm-8 col-sm-offset-2">
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
-                                    <small>Someone famous</small>
-                               </div>
-                          </div>
-                          </blockquote>
-                       </div>
-        </div>
-
-                            <!-- Carousel Buttons Next/Prev -->
-                            <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-                            <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-	<div class="footer">                                        
-        <div class="container" >
-            <div class="row text-center">   
-                <div class="col-lg-6 col-lg-offset-3">
-                    <ul class="menu">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">About</a>
-                        </li>
-                        
-                        <li>
-                            <a href="#">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                        <li>
-                            <a href="feedback.html">Feedback</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>   
-    </div>	
 </div>
+<div class="container-fluid">
+    <div class="a">
+        <span>Name </span> <input type="text" id="name" />
+        <p class="noname">Please enter your name</p>
+    </div>
+    <div class="a">
+        <span>Email </span><input type="email" id="email" />
+        <p class="noemail">Please enter your email</p>
+    </div>
+    <div class="a">
+        <span> Your feedback </span><input type="text" id="fb" />
+        <p class="nofb">Please enter your feedback</p>
+    </div>
+    <div class="a">
+        <button type="button" class="btn btn-danger" onclick="OK()">OK</button>
+    </div>
+</div>
+<div class="footer">                                        
+	<div class="container" >
+    	<div class="row text-center">   
+        	<div class="col-lg-6 col-lg-offset-3">
+            	<ul class="menu">
+                	<li>
+                    	<a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="feedback.html">Feedback</a>
+                    </li>
+                 </ul>
+            </div>   
+        </div>
+    </div>   
+</div>	
+<script type="text/javascript">
+	function OK(){
+		var name = $("#name").val();
+		var email = $("#email").val();
+		var fb = $("#fb").val();
+		if(name == '') $(".noname").show();
+		else if (email == ''){
+			 $(".noemail").show();
+			 $(".noname").hide();
+		}
+		else if (fb == ''){
+			$(".nofb").show();
+			$(".noname").hide();
+			$(".noemail").hide();
+		}
+		else {
+			alert("Thank you!");
+			$(".noname").hide();
+			$(".noemail").hide();
+			$(".nofb").hide();
+		}
+	};
+</script>
 </body>
 </html>
