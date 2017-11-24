@@ -2,28 +2,8 @@
 /* CSS Document */
 
 body{
-	font-family:Myriad Pro;
+	font-family:Verdana, Geneva, sans-serif;
 	background-color: #fafafa;
-}
-.navbar{
-background:rgba(255,255,255,0.25);
-border: none;
-background-color:#FFC
-}
-.navbar a,.navbar-toggle{
- color: #b1aca1;
-}
-
-.navbar-default {
-	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-	padding:0px;
-	background:#FFF;
-	vertical-align:bottom;
-}
-
-.brand {
-	border-radius:10px;
-	float:left;
 }
 
 .1 {
@@ -41,7 +21,6 @@ background-color:#FFC
 	padding:15px;
 	margin:25px;
 	border-radius:5px;
-	width:66%;
 }
 .image {
 	display:inline-block;
@@ -62,7 +41,6 @@ background-color:#FFC
 	padding:15px;
 	margin:25px;
 	border-radius:5px;
-	width:33%;
 }
 
 .soluong {

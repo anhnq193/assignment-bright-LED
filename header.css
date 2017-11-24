@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar{
+background:rgba(255,255,255,0.25);
+border: none;
+background-color:#FFC
+}
+.navbar a,.navbar-toggle{
+ color: #b1aca1;
+}
+
+.navbar-default {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	padding:0px;
+	background:#FFF;
+	vertical-align:bottom;
+}
+
+.brand {
+	border-radius:10px;
+	float:left;
+}
