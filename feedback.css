@@ -7,17 +7,25 @@ border: none;
 background-color:#FFC
 }
 .navbar a{
- color: #b1aca1;
+	color: #b1aca1;
 }
 .container-fluid {
 	margin-top:50px;
 }
 .a{
-	margin-top:20px;
+	margin-top:30px;
+	margin-left: 80px;
+}
+.a span {
+	display:inline-block;
+	width:100px;
 }
 .noname, .noemail, .nofb{
 	display:none;
 	color:red;	
+}
+.footer{
+	margin-top: 160px;
 }
 .footer .container{
 	border-top:1px solid #999;
