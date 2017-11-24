@@ -40,10 +40,8 @@ body {
 
 .header {
 	border: 1px black solid;
-    width: 500px;
     margin: auto;
     text-align: center;
-	margin-top: 60px;	
 }
 .header p {
 	font-weight: bold;
