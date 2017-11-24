@@ -16,6 +16,10 @@ background-color:#FFC
 	background:#FFF;
 	vertical-align:bottom;
 }
+.form-control{
+	display:inline;
+	width:90%;
+}
 
 .brand {
 	border-radius:10px;
