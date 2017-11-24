@@ -19,9 +19,12 @@ background-color:#FFC
 .form-control{
 	display:inline;
 	width:90%;
+	height:90%;
 }
-
-.brand {
-	border-radius:10px;
-	float:left;
+.logo{
+	margin-top:7px;
+	padding-left:8px;
+}
+.search{
+	margin-top:-3px;
 }
