@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container-fluid {
+	margin-top:50px;
+}
+.a{
+	margin-top:30px;
+	margin-left: 80px;
+}
+.a span {
+	display:inline-block;
+	width:100px;
+}
+.noname, .noemail, .nofb{
+	display:none;
+	color:red;	
+}
