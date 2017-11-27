@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+.container .row img{
+	margin-top:30px;
+	height:300px;
+	width:250px;
+}
