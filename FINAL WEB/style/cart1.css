@@ -1,8 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
-	font-family:Verdana, Geneva, sans-serif;
+body {
 	background-color: #fafafa;
 }
 
@@ -10,17 +9,15 @@ body{
 	display:inline-block;
 	width:66%;
 	float:left;
-	
 }
-.container {
-	margin-top:60px;	
-}
+
 .sanpham{
 	background: #FFF;
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 	padding:15px;
 	margin:25px;
 	border-radius:5px;
+	width:66%;
 }
 .image {
 	display:inline-block;
@@ -33,6 +30,7 @@ body{
 
 .2 {
 	display:inline-block;
+	float:right;
 }
 
 .thanhtien {
@@ -41,11 +39,11 @@ body{
 	padding:15px;
 	margin:25px;
 	border-radius:5px;
+	width:33%;
 }
 
 .soluong {
-	border-bottom:solid 1px #F5F5F5;
-}
+	}
 
 .tsp {
 	width:50%;
@@ -55,15 +53,17 @@ body{
 	color:#CCC;
 	font-size:12px;
 	text-align:right;
-	border-bottom:solid 1px #FAFAFA;
+	
 }
 
 .tongcong {
 	text-align:right;
 	font-size:24px;
 	color:#F00;
+	border-top:solid 1px #CBCBCB;
 }
 .xacnhan {
+	margin-top:10px;
 	color:white;
 	background:#F00;
 	vertical-align:middle;
