@@ -25,6 +25,24 @@ background-color:#FFC
 	margin-top:7px;
 	padding-left:8px;
 }
+.logo img{
+	height: 40px;
+}
 .search{
 	margin-top:-3px;
+}
+@media screen and (min-width:320px) and (max-width:359px){
+	.navbar{
+		float:none;
+	}
+}
+@media screen and (min-width:360px) and (max-width:480px){
+	.navbar{
+		float:none;
+	}
+}
+@media screen and (min-width:481px) and (max-width:880px){
+	.navbar-nav{
+		float:none;
+	}
 }
