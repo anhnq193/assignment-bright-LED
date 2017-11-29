@@ -45,6 +45,11 @@ background-color:#FFC
 		float:left !important;	
 	}
 }
+@media screen and (min-width:881px) and (max-width:1200px){
+	#hp{
+		float:left !important;	
+	}
+}
 
 .navbar-default {
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
