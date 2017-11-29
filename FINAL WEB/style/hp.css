@@ -93,7 +93,7 @@ body{
     }
 
 .main .row img {
-	width:240px;
+	width:20%;
     margin: 10px 30px 10px 10px;
     -webkit-transform: scale(1, 1);
     -ms-transform: scale(1, 1);
@@ -113,18 +113,37 @@ body{
     z-index: 1;
     }
 .product h2{
-	text-transform:uppercase
+	text-transform:uppercase;
 }
 .product .row{
 	margin-left:0px;
 }
 
 /* pr */
-.pr img{
-	width: 250px;
-	height:200px;
-	margin-top:50px;
-}
+.pr .row {
+    margin: 80px 0px 80px 0px;
+    }
+
+.pr .row img {
+	width:30%;
+    margin: 10px 30px 10px 10px;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    }
+
+.pr .row img:hover {
+	cursor: pointer;
+	-webkit-transform: scale(2, 2);
+    -ms-transform: scale(2, 2);
+    transform: scale(2, 2);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    box-shadow: 10px 10px 5px #888888;
+    z-index: 1;
+    }
 /*footer*/
  .bottommenu{
  	position: relative;
@@ -266,6 +285,9 @@ body{
  }
   }
  @media screen and (min-width: 481px) and (max-width: 1200px){
+	 .main, .pr{
+		 text-align:center;
+	 }
  .bottommenu>ul{
  	padding-left: 30px;
  	float: none;
@@ -294,7 +316,6 @@ background-color: #191919;
 color: #fff;
 font-family: "Roboto Light";
 font-size: 12px;
-
 width: 100%;
 
  

@@ -26,20 +26,28 @@ background-color:#FFC
 .search{
 	margin-top:-3px;
 }
-<<<<<<< HEAD
+.lg{
+	display:block;
+	width:300px;
+}
 @media screen and (min-width:320px) and (max-width:359px){
-	.navbar{
-		float:none;
+	#hp{
+		float:left !important;	
 	}
 }
 @media screen and (min-width:360px) and (max-width:480px){
-	.navbar{
-		float:none;
+	#hp{
+		float:left !important;	
 	}
 }
 @media screen and (min-width:481px) and (max-width:880px){
-	.navbar-nav{
-		float:none;
+	#hp{
+		float:left !important;	
+	}
+}
+@media screen and (min-width:881px) and (max-width:1200px){
+	#hp{
+		float:left !important;	
 	}
 }
 
