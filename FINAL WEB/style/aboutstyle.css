@@ -29,6 +29,7 @@
 }
 #about-us{
 	font-family:Lato;
+	margin-top:150px;
 }
 
 #about-us h1{
@@ -61,7 +62,7 @@
   text-align:center;
 }
 .allcontain1 {
-	margin-top:100px;
+	
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border-radius:7%;
 	height:700px;

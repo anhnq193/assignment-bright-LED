@@ -583,3 +583,8 @@ ul{ list-style:none; }
 	
 	}
 }
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
