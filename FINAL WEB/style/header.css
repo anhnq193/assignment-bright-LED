@@ -6,16 +6,11 @@ background:rgba(255,255,255,0.25);
 border: none;
 background-color:#FFC
 }
-.navbar a,.navbar-toggle{
+#navbar a{
  color: #b1aca1;
 }
 
-.navbar-default {
-	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-	padding:0px;
-	background:#FFF;
-	vertical-align:bottom;
-}
+
 .form-control{
 	display:inline;
 	width:90%;
@@ -31,6 +26,7 @@ background-color:#FFC
 .search{
 	margin-top:-3px;
 }
+<<<<<<< HEAD
 @media screen and (min-width:320px) and (max-width:359px){
 	.navbar{
 		float:none;
@@ -46,3 +42,14 @@ background-color:#FFC
 		float:none;
 	}
 }
+=======
+.navbar-default {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	padding:0px;
+	background:#FFF;
+	vertical-align:bottom;
+}
+.navbar-wrapper {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);	
+}
+>>>>>>> e628dd34f1204b04be3d506617e135e30a5a1f05

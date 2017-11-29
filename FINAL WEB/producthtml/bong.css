@@ -247,6 +247,20 @@ background: #428bca;
 .bottomsocial>a>i{
 	margin-bottom: 20px;
 }
+@media screen and (max-width: 1009px){
+	.anh , .muahang {
+	display:block;	
+	}
+	.muahang {
+		padding-left:10px;
+		width: 800px;
+		margin:auto;	
+	}
+	
+	.review {
+		width: 850px;	
+	}
+}
 @media screen and (min-width:320px) and (max-width:359px){
 	.bottommenu{
 		top:30px;
@@ -269,7 +283,6 @@ font-family: "Roboto Light";
 font-size: 12px;
 
 width: 100%;
-height: 30px;
  
 }
 .copyright{
