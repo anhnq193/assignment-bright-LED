@@ -10,12 +10,7 @@ background-color:#FFC
  color: #b1aca1;
 }
 
-.navbar-default {
-	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
-	padding:0px;
-	background:#FFF;
-	vertical-align:bottom;
-}
+
 .form-control{
 	display:inline;
 	width:90%;
@@ -27,4 +22,10 @@ background-color:#FFC
 }
 .search{
 	margin-top:-3px;
+}
+.navbar-default {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+	padding:0px;
+	background:#FFF;
+	vertical-align:bottom;
 }
