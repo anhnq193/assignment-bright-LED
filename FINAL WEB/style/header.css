@@ -45,14 +45,13 @@ background-color:#FFC
 		float:left !important;	
 	}
 }
-=======
+
 .navbar-default {
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 	padding:0px;
-	background:#FFF;
+	background:white;
 	vertical-align:bottom;
 }
 .navbar-wrapper {
 	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);	
 }
->>>>>>> e628dd34f1204b04be3d506617e135e30a5a1f05
