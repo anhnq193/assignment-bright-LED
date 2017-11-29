@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+.contain {
+	margin-top:50px;
+	background-image:url(../image/shhj.jpg);
+	border-bottom:1px solid #EAEAEA;
+	padding-bottom:40px;	
+}
+.name {
+	border : 2px solid black;
+	text-transform:uppercase;    
+	width: 550px;
+    margin: auto;
+	font-size:30px;	
+	text-align:center;
+	background-color:white;	
+}
+.small, .big {
+	display:inline-block;
+	width:45%;
+	text-align:center;
+	vertical-align:middle;	
+}
+.big img {
+	width:70%;	
+}
+
+.s1 img,.s2 img{
+	width:35%;
+	border:2px solid #900;
+	margin-left:20px;
+	box-shadow:	
+}
+.s2 img {
+	margin-top:20px;
+	margin-left:20px;
+	
+}
+.big img {
+	border:2px solid #900;
+}
+.block {
+	margin-top:40px;	
+}
+.image {
+	margin-top:90px;
+	width:85%;
+	text-align:center;
+	margin:auto;
+		
+}

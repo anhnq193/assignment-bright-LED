@@ -476,6 +476,7 @@ color: #fff;
 font-family: "Roboto Light";
 font-size: 12px;
 width: 100%;
+margin-top:30px;
  
 }
 .copyright{
@@ -539,8 +540,23 @@ width: 100%;
 }
 
 
+.sm-hp , .sm-br , .sm-ct {
+	display:inline-block;
+	width:30%;	
+	
+}
 
-
-
-
- 
+ul{ list-style:none; }
+.sitemap {
+	padding-left:160px;
+	color:white;
+		
+}
+	
+.sm-hp ul li a , .sm-br ul li a, .sm-ct ul li a{
+	color:white;
+	font-size:20px;	
+}
+.sitemap h4 {
+	color:white;	
+}

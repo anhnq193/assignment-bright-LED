@@ -49,32 +49,6 @@
 .col-md-3 {
 	margin-top:30px;	
 }
-img {
-	
-	
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-	
-	  
-	
-	}	
-	.gal img{ width: 100%; padding: 7px 0;}
-	
-
-@media screen and(max-width: 991px) {
-		
-		img {
-	
-	
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
-    column-count: 2;
-	  
-	
-	}
-		
-	}
 	
 .thumbnail {
     position:relative;

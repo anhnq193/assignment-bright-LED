@@ -6,7 +6,7 @@ background:rgba(255,255,255,0.25);
 border: none;
 background-color:#FFC
 }
-.navbar a,.navbar-toggle{
+#navbar a{
  color: #b1aca1;
 }
 
@@ -28,4 +28,7 @@ background-color:#FFC
 	padding:0px;
 	background:#FFF;
 	vertical-align:bottom;
+}
+.navbar-wrapper {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);	
 }
