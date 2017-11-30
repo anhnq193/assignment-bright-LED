@@ -104,12 +104,12 @@ body{
 
 .main .row img:hover {
 	cursor: pointer;
-	-webkit-transform: scale(2, 2);
-    -ms-transform: scale(2, 2);
-    transform: scale(2, 2);
+	-webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
     transition-duration: 0.3s;
     -webkit-transition-duration: 0.3s; /* Safari */
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 5px 5px 2.5px #888888;
     z-index: 1;
     }
 .product h2{
@@ -136,12 +136,12 @@ body{
 
 .pr .row img:hover {
 	cursor: pointer;
-	-webkit-transform: scale(2, 2);
-    -ms-transform: scale(2, 2);
-    transform: scale(2, 2);
+	-webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
     transition-duration: 0.3s;
     -webkit-transition-duration: 0.3s; /* Safari */
-    box-shadow: 10px 10px 5px #888888;
+    box-shadow: 5px 5px 2.5px #888888;
     z-index: 1;
     }
 /*footer*/
@@ -368,10 +368,49 @@ width: 100%;
 	}
 
 }
-.isotope .isotope-item {
-  -webkit-transition-duration: 0.8s;
-     -moz-transition-duration: 0.8s;
-      -ms-transition-duration: 0.8s;
-       -o-transition-duration: 0.8s;
-          transition-duration: 0.8s;
+
+
+.small, .big {
+	text-align:center;
+	vertical-align:middle;	
+}
+.big img {
+	width:60%;
+	border:5px ridge #FC0;	
+}
+.big {
+	width: 40%;
+    padding-left: 10%;
+    padding-top: 10%;	
+}
+
+.s1 img,.s2 img{
+	border:2px ridge #FC0;
+	margin-left:20px;
+
+}
+.s2 img {
+	margin-top:20px;
+	margin-left:20px;	
+}
+.big2 {
+	margin-right:70px;	
+}
+.main {
+	width:85%;
+	margin:auto;
+	margin-top:50px;	
+}
+.name {
+	text-transform:uppercase;
+	border:2px double #000;
+	padding-left:20px;	
+}
+.price {
+	font-weight:bold;
+	font-size:20px;
+	color:#F00;	
+}
+.best , .narv {
+	padding-left:0px;		
 }
