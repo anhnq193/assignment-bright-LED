@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="style/header.css">
 	<link rel="stylesheet" type="text/css" href="style/mystyle.css">
 	<link rel="stylesheet" type="text/css" href="style/contactstyle.css">
-    <link rel="stylesheet" type="text/css" href="style/mystyle.css"/> 
+    
 </head>
 <body>
 <!-- Header -->
@@ -72,25 +72,77 @@
 
 
 <!-- ________________________CONTACT US _______________________-->
-<div class="allcontain">
-	<div class="contact">
-		<div class="newslettercontent">
-			<div class="leftside">
-					<div class="contact-form">
-						<h1>Contact Us</h1>
-							<div class="form-group group-coustume">
-								<input type="text" class="form-control name-form" placeholder="Name">
-								<input type="text" class="form-control email-form" placeholder="E-mail">
-								<input type="text" class="form-control subject-form" placeholder="Subject">
-								<textarea rows="4" cols="50" class="message-form"></textarea>
-								<button type="submit" class="btn btn-warning btn-submit btn-block">Submit</button>
-							</div>
-					</div>
-			</div>
-			
-		</div>
 
-	</div>
+<div class="container2">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">General Customer Service</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Product Support</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Send Message</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form>
+            <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
+            <address>
+                <strong>Starries, Inc.</strong><br>
+                <span class="glyphicon glyphicon-map-marker"></span>&nbsp;FPT University<br>
+                <span class="glyphicon glyphicon-map-marker"></span>&nbsp;Hanoi , Vietnam<br>
+                <abbr title="Phone">
+                <span class="glyphicon glyphicon-earphone"></span>&nbsp;</abbr>
+                (123) 456-7890
+            </address>
+            <address>
+                <strong>Email</strong><br>
+                <span class="glyphicon glyphicon-envelope"></span>&nbsp;<a href="mailto:#">fpt.aptech@gmail.com</a>
+            </address>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container">
+	<div class="row-fluid">
+        <div class="span8">
+        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.1186727365266!2d105.78188298381623!3d21.027937099878503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454b3aa600d69%3A0x11275455cd98079!2zVMO0biBUaOG6pXQgVGh1eeG6v3QsIEjDoCBO4buZaSwgVmlldG5hbQ!5e0!3m2!1sen!2s!4v1512029986933" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    	</div>
+    </div>
 </div>
 <!-- ______________________________________________________Bottom Menu ______________________________-->
 <div class="allcontain">
@@ -170,23 +222,19 @@
 
 <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.js"></script>
 <script type="text/javascript" src="source/js/myscript.js"></script> <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
-
-<script>
-	$(window).resize(function(){
-		var new_height = $("#image_border").height();
-		console.log(new_height);
-		$("#googleMap").height(new_height);
-	});
-
-	$(window).load(function(){
-		var new_height = $("#image_border").height();
-		console.log(new_height);
-		$("#googleMap").height(new_height);
-		google.maps.event.addDomListener(window, 'load', initialize());
-	});
-	
-</script>
 <script type="text/javascript" src="source/js/myscript.js"></script>
 <script type="text/javascript" src="source/bootstrap-3.3.6-dist/js/jquery.1.11.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+<script type="text/javascript">
+	function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+	}
+</script>
 </body>
 </html>
