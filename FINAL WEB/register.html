@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -364,9 +363,9 @@
         </div>   
     </div>
 </div>
-        
+<button id="btn" class="btn-danger">Submit</button>        
 		<!-- Footer Holder -->
-    <div class="allcontain">
+<div class="allcontain">
 	<div class="bottommenu">
 		<div class="bottomlogo">
 		<span class="dotlogo">&bullet;</span><img src="image/shhj.png" alt="logo1" width="150px" class="img-rounded"><span class="dotlogo">&bullet;;</span>
@@ -444,19 +443,14 @@
 
 
 
-         <script src="source/bootstrap-3.3.6-dist/js/jquery.js"></script>
-         <script src="source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
+<script src="source/bootstrap-3.3.6-dist/js/jquery.js"></script>
+<script src="source/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
 
-         <script type="text/javascript">
-             $(document).ready(function () {
-                 $('#sidebarCollapse').on('click', function () {
-                     $('#sidebar').toggleClass('active');
-                 });
-				 $('#sidebarClose').on('click', function () {
-                     $('#sidebar').toggleClass('active');
-                 });
-             });
-         </script>
+<script type="text/javascript">
+ $('#btn').click(function() {
+	 alert('Submit Successfully');
+ });
+</script>
     </body>
 </html>
 
